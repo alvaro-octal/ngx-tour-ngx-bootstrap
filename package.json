@@ -1,6 +1,6 @@
 {
-  "name": "ngx-tour-ngx-bootstrap",
-  "version": "4.3.0",
+  "name": "@ngx-tour/ngx-bootstrap",
+  "version": "1.0.0",
   "repository": "https://github.com/isaacplmann/ngx-tour.git",
   "author": "Isaac Mann <isaacplmann@gmail.com>",
   "license": "MIT",
@@ -8,10 +8,30 @@
     "@angular/common": ">=7.0.0 <11.0.0",
     "@angular/core": ">=7.0.0 <11.0.0",
     "ngx-bootstrap": ">=3.1.0 <7.0.0",
-    "ngx-tour-core": "^4.2.0"
+    "@ngx-tour/core": "^1.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0",
     "withinviewport": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1000.5",
+    "@angular-devkit/build-ng-packagr": "~0.1000.5",
+    "@angular/cli": "^10.0.5",
+    "@angular/common": "^10.2.3",
+    "@angular/compiler": "^10.0.5",
+    "@angular/compiler-cli": "^10.0.5",
+    "@angular/core": "^10.2.3",
+    "@angular/router": "^10.2.3",
+    "@ngx-tour/core": "^1.0.0",
+    "cpx": "^1.5.0",
+    "ng-packagr": "^10.0.5",
+    "ngx-bootstrap": "^6.0.0",
+    "rxjs": "^6.6.3",
+    "typescript": "~3.9.7"
+  },
+  "scripts": {
+    "build": "ng build @ngx-tour/ngx-boostrap --prod && cpx CHANGELOG.md dist/",
+    "publish": "npm publish dist --access=public"
   }
 }

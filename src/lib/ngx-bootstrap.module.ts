@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { PopoverModule } from 'ngx-bootstrap/popover';
-import {TourService} from 'ngx-tour-core';
+import {TourService} from '@ngx-tour/core';
 
 import { TourAnchorNgxBootstrapDirective, TourAnchorNgxBootstrapPopoverDirective } from './tour-anchor.directive';
 import { TourStepTemplateComponent } from './tour-step-template.component';
