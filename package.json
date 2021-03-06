@@ -1,12 +1,12 @@
 {
     "name": "@ngx-tour/ngx-bootstrap",
-    "version": "1.0.0",
+    "version": "11.0.0",
     "repository": "https://github.com/isaacplmann/ngx-tour.git",
     "author": "Isaac Mann <isaacplmann@gmail.com>",
     "license": "MIT",
     "peerDependencies": {
-        "ngx-bootstrap": ">=3.1.0 <7.0.0",
-        "@ngx-tour/core": "^1.0.0"
+        "ngx-bootstrap": "^6.2.0",
+        "@ngx-tour/core": "^11.0.0"
     },
     "dependencies": {
         "tslib": "^2.0.0",
@@ -23,7 +23,7 @@
         "@ngx-tour/core": "^11.0.0",
         "cpx": "^1.5.0",
         "ng-packagr": "^11.2.4",
-        "ngx-bootstrap": "^6.0.0",
+        "ngx-bootstrap": "^6.2.0",
         "rxjs": "^6.6.3",
         "typescript": "~4.1.5"
     },
