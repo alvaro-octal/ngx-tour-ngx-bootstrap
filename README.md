@@ -1,6 +1,6 @@
 # Ngx-Tour Ngx-Bootstrap
-[![Dependency Status](https://david-dm.org/isaacplmann/ngx-tour-ngx-bootstrap.svg)](https://david-dm.org/isaacplmann/ngx-tour-ngx-bootstrap)
-[![devDependency Status](https://david-dm.org/isaacplmann/ngx-tour-ngx-bootstrap/dev-status.svg)](https://david-dm.org/isaacplmann/ngx-tour-ngx-bootstrap?type=dev)
+[![Dependency Status](https://david-dm.org/alvaro-octal/ngx-tour-ngx-bootstrap.svg)](https://david-dm.org/alvaro-octal/ngx-tour-ngx-bootstrap)
+[![devDependency Status](https://david-dm.org/alvaro-octal/ngx-tour-ngx-bootstrap/dev-status.svg)](https://david-dm.org/alvaro-octal/ngx-tour-ngx-bootstrap?type=dev)
 
 Check out the [documentation/demo page](https://isaacplmann.github.io/ngx-tour).
 
