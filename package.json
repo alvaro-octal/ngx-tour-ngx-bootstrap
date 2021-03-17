@@ -30,6 +30,6 @@
     "scripts": {
         "upgrade": "ncu -u -x typescript,rxjs",
         "build": "ng build @ngx-tour/ngx-boostrap --prod && cpx CHANGELOG.md dist/",
-        "publish": "npm publish dist --access=public"
+        "publish": "cd dist; npm publish --access=public; cd .."
     }
 }
