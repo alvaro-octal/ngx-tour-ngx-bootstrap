@@ -24,15 +24,15 @@ import { TourStepTemplateService } from "./tour-step-template.service";
           class="btn btn-sm btn-primary"
           (click)="tourService.prev()"
         >
-          « {{ step?.prevBtnTitle }}
-        </button>
+          {{ step?.prevBtnTitle }}
+        </button>&nbsp;
         <button
           *ngIf="tourService.hasNext(step)"
           class="btn btn-sm btn-primary"
           (click)="tourService.next()"
         >
-          {{ step?.nextBtnTitle }} »
-        </button>
+          {{ step?.nextBtnTitle }}
+        </button>&nbsp;
         <button class="btn btn-sm btn-primary" (click)="tourService.end()">
           {{ step?.endBtnTitle }}
         </button>
