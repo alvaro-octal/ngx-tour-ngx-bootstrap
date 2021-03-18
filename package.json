@@ -1,7 +1,7 @@
 {
     "name": "@ngx-tour/ngx-bootstrap",
     "version": "11.0.0",
-    "repository": "https://github.com/isaacplmann/ngx-tour.git",
+    "repository": "https://github.com/alvaro-octal/ngx-tour-ngx-bootstrap.git",
     "author": "Isaac Mann <isaacplmann@gmail.com>",
     "license": "MIT",
     "peerDependencies": {
