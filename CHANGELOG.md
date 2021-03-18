@@ -1,3 +1,10 @@
+## [11.0.4](https://github.com/alvaro-octal/ngx-tour-ngx-bootstrap/compare/v11.0.3...v11.0.4) (2021-03-18)
+
+
+### Fix
+
+* Release Script ([7eeefe5](https://github.com/alvaro-octal/ngx-tour-ngx-bootstrap/commit/7eeefe5e94d2cd9f07d0ba60c2b7748462c9857b))
+
 <a name="4.3.0"></a>
 
 # [4.3.0](https://github.com/isaacplmann/ngx-tour) (2020-08-10)
