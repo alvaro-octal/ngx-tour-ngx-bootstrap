@@ -2,11 +2,12 @@ import { Directive, ElementRef, Host, HostBinding, Input } from "@angular/core";
 import type { OnDestroy, OnInit } from "@angular/core";
 import { PopoverDirective } from "ngx-bootstrap/popover";
 import { TourAnchorDirective } from "@ngx-tour/core";
-import { INgxbStepOption as IStepOption } from "./step-option.interface";
 import withinviewport from "withinviewport";
 
 import { NgxbTourService } from "./ngx-bootstrap-tour.service";
+import { INgxbStepOption } from "./step-option.interface";
 import { TourStepTemplateService } from "./tour-step-template.service";
+import { TourBackdropService } from './tour-backdrop.service';
 
 @Directive({ selector: "[tourAnchor]" })
 export class TourAnchorNgxBootstrapPopoverDirective extends PopoverDirective {}
@@ -25,7 +26,8 @@ export class TourAnchorNgxBootstrapDirective
     private tourService: NgxbTourService,
     private tourStepTemplate: TourStepTemplateService,
     private element: ElementRef,
-    @Host() private popoverDirective: TourAnchorNgxBootstrapPopoverDirective
+    @Host() private popoverDirective: TourAnchorNgxBootstrapPopoverDirective,
+    private tourBackdrop: TourBackdropService
   ) {
     this.popoverDirective.triggers = "";
   }
@@ -38,7 +40,7 @@ export class TourAnchorNgxBootstrapDirective
     this.tourService.unregister(this.tourAnchor);
   }
 
-  public showTourStep(step: IStepOption): void {
+  public showTourStep(step: INgxbStepOption): void {
     this.isActive = true;
     this.popoverDirective.popover = this.tourStepTemplate.template;
     this.popoverDirective.popoverContext = { step };
@@ -62,10 +64,17 @@ export class TourAnchorNgxBootstrapDirective
         (<HTMLElement>this.element.nativeElement).scrollIntoView(true);
       }
     }
+
+    if (step.enableBackdrop) {
+        this.tourBackdrop.show(this.element, step.backdropZIndex);
+    } else {
+        this.tourBackdrop.close();
+    }
   }
 
   public hideTourStep(): void {
     this.isActive = false;
     this.popoverDirective.hide();
+    this.tourBackdrop.close();
   }
 }
