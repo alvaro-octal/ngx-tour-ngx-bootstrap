@@ -1,3 +1,14 @@
+## [11.1.1](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/compare/v11.1.0...v11.1.1) (2021-04-06)
+
+
+### Fix
+
+* update peer dependencies ([41714b2](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/41714b26a7f576c88be2533137b3bc12bb006354))
+
+### Minor
+
+* Change ownership ([f77fdb9](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/f77fdb905cd215dd9812f107a60b5c88a2726c39))
+
 # [11.1.0](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/compare/v11.0.4...v11.1.0) (2021-03-28)
 
 ### New
