@@ -1,7 +1,7 @@
-import { IStepOption } from "@ngx-tour/core";
+import { IStepOption } from '@ngx-tour/core';
 
 export interface INgxbStepOption extends IStepOption {
-  placement?: "top" | "bottom" | "left" | "right" | "auto";
+  placement?: 'top' | 'bottom' | 'left' | 'right' | 'auto';
   containerClass?: string;
   enableBackdrop?: boolean;
   backdropZIndex?: number;

@@ -1,15 +1,15 @@
-import { CommonModule } from "@angular/common";
-import { ModuleWithProviders, NgModule } from "@angular/core";
-import { PopoverModule } from "ngx-bootstrap/popover";
-import { TourService } from "@ngx-tour/core";
+import { CommonModule } from '@angular/common';
+import { ModuleWithProviders, NgModule } from '@angular/core';
+import { PopoverModule } from 'ngx-bootstrap/popover';
+import { TourService } from '@ngx-tour/core';
 
-import { NgxbTourService } from "./ngx-bootstrap-tour.service";
+import { NgxbTourService } from './ngx-bootstrap-tour.service';
 import {
   TourAnchorNgxBootstrapDirective,
   TourAnchorNgxBootstrapPopoverDirective,
-} from "./tour-anchor.directive";
-import { TourStepTemplateComponent } from "./tour-step-template.component";
-import { TourStepTemplateService } from "./tour-step-template.service";
+} from './tour-anchor.directive';
+import { TourStepTemplateComponent } from './tour-step-template.component';
+import { TourStepTemplateService } from './tour-step-template.service';
 import { TourBackdropService } from './tour-backdrop.service';
 
 export {
@@ -37,7 +37,12 @@ export class TourNgxBootstrapModule {
   public static forRoot(): ModuleWithProviders<TourNgxBootstrapModule> {
     return {
       ngModule: TourNgxBootstrapModule,
-      providers: [TourStepTemplateService, TourService, NgxbTourService, TourBackdropService],
+      providers: [
+        TourStepTemplateService,
+        TourService,
+        NgxbTourService,
+        TourBackdropService,
+      ],
     };
   }
 }

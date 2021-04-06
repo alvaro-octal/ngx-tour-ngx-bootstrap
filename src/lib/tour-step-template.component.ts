@@ -6,15 +6,15 @@ import {
   TemplateRef,
   ViewChild,
   ViewEncapsulation,
-} from "@angular/core";
-import { IStepOption, TourHotkeyListenerComponent } from "@ngx-tour/core";
+} from '@angular/core';
+import { IStepOption, TourHotkeyListenerComponent } from '@ngx-tour/core';
 
-import { NgxbTourService } from "./ngx-bootstrap-tour.service";
-import { TourStepTemplateService } from "./tour-step-template.service";
+import { NgxbTourService } from './ngx-bootstrap-tour.service';
+import { TourStepTemplateService } from './tour-step-template.service';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
-  selector: "tour-step-template",
+  selector: 'tour-step-template',
   template: `
     <ng-template #tourStep let-step="step">
       <p class="tour-step-content">{{ step?.content }}</p>
@@ -24,15 +24,15 @@ import { TourStepTemplateService } from "./tour-step-template.service";
           class="btn btn-sm btn-primary"
           (click)="tourService.prev()"
         >
-          {{ step?.prevBtnTitle }}
-        </button>&nbsp;
+          {{ step?.prevBtnTitle }}</button
+        >&nbsp;
         <button
           *ngIf="tourService.hasNext(step)"
           class="btn btn-sm btn-primary"
           (click)="tourService.next()"
         >
-          {{ step?.nextBtnTitle }}
-        </button>&nbsp;
+          {{ step?.nextBtnTitle }}</button
+        >&nbsp;
         <button class="btn btn-sm btn-primary" (click)="tourService.end()">
           {{ step?.endBtnTitle }}
         </button>
@@ -43,7 +43,7 @@ import { TourStepTemplateService } from "./tour-step-template.service";
 export class TourStepTemplateComponent
   extends TourHotkeyListenerComponent
   implements AfterContentInit {
-  @ViewChild("tourStep", { read: TemplateRef, static: true })
+  @ViewChild('tourStep', { read: TemplateRef, static: true })
   public defaultTourStepTemplate: TemplateRef<any>;
 
   @Input()

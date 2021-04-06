@@ -2,13 +2,13 @@
 
 ### New
 
--   Add backdrop zindex ([595d47d](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/595d47de766e9464bf6d1ae29de63059e31ab0af))
+- Add backdrop zindex ([595d47d](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/595d47de766e9464bf6d1ae29de63059e31ab0af))
 
 ## [11.0.4](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/compare/v11.0.3...v11.0.4) (2021-03-18)
 
 ### Fix
 
--   Release Script ([7eeefe5](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/7eeefe5e94d2cd9f07d0ba60c2b7748462c9857b))
+- Release Script ([7eeefe5](https://github.com/ngx-tour/ngx-tour-ngx-bootstrap/commit/7eeefe5e94d2cd9f07d0ba60c2b7748462c9857b))
 
 <a name="4.3.0"></a>
 
@@ -16,8 +16,8 @@
 
 ### Features
 
--   Support Angular 10
--   Support ngx-bootstrap 6
+- Support Angular 10
+- Support ngx-bootstrap 6
 
 <a name="4.2.1"></a>
 
@@ -25,7 +25,7 @@
 
 ### Fixes
 
--   Skip undefined tourAnchors
+- Skip undefined tourAnchors
 
 <a name="4.2.0"></a>
 
@@ -33,8 +33,8 @@
 
 ### Features
 
--   Support Angular 8 as peer dependency
--   Support Ivy renderer
+- Support Angular 8 as peer dependency
+- Support Ivy renderer
 
 <a name="4.1.0"></a>
 
@@ -42,7 +42,7 @@
 
 ### Features
 
--   Add custom containerClass for step popover (only for ngx-bootstrap version)
+- Add custom containerClass for step popover (only for ngx-bootstrap version)
 
 <a name="4.0.1"></a>
 
@@ -50,8 +50,8 @@
 
 ### Fixes
 
--   NavigationStart only hide currentStep if route is specified eg. routing used
--   Fix clicking on attached element issue for ngx-bootstrap
+- NavigationStart only hide currentStep if route is specified eg. routing used
+- Fix clicking on attached element issue for ngx-bootstrap
 
 <a name="4.0.0"></a>
 
@@ -59,8 +59,8 @@
 
 ### BREAKING CHANGES
 
--   Require Angular 7 as peer dependency
--   Require ngx-bootstrap 3.1 as peer dependency
+- Require Angular 7 as peer dependency
+- Require ngx-bootstrap 3.1 as peer dependency
 
 <a name="3.0.0"></a>
 
@@ -68,8 +68,8 @@
 
 ### BREAKING CHANGES
 
--   Require Angular 6 as peer dependency
--   Require ngx-bootstrap 3 as peer dependency
+- Require Angular 6 as peer dependency
+- Require ngx-bootstrap 3 as peer dependency
 
 <a name="2.0.0"></a>
 
@@ -77,12 +77,12 @@
 
 ### Features
 
--   Add touranchor-is-active class
--   Add options to set button text
+- Add touranchor-is-active class
+- Add options to set button text
 
 ### Fixes
 
--   No component factory found for PopoverContainerComponent
+- No component factory found for PopoverContainerComponent
 
 <a name="2.0.0-beta.9"></a>
 
@@ -90,12 +90,12 @@
 
 ### BREAKING CHANGES
 
--   Require Angular 5
--   Require ngx-bootstrap ^2.0.0-beta.9
+- Require Angular 5
+- Require ngx-bootstrap ^2.0.0-beta.9
 
 ### Features
 
--   Disable/enable hotkeys
+- Disable/enable hotkeys
 
 <a name="1.0.4"></a>
 
@@ -103,4 +103,4 @@
 
 ### BREAKING CHANGES
 
--   Create plugin for ngx-bootstrap
+- Create plugin for ngx-bootstrap
