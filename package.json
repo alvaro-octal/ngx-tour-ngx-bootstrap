@@ -5,7 +5,7 @@
   "author": "Isaac Mann <isaacplmann@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@ngx-tour/core": "^11.0.0",
+    "@ngx-tour/core": "^11.0.8",
     "ngx-bootstrap": "^6.2.0"
   },
   "dependencies": {
@@ -25,7 +25,7 @@
     "@angular/compiler-cli": "^11.2.5",
     "@angular/core": "^11.2.5",
     "@angular/router": "^11.2.5",
-    "@ngx-tour/core": "^11.0.0",
+    "@ngx-tour/core": "^11.0.8",
     "@typescript-eslint/eslint-plugin": "4.16.1",
     "@typescript-eslint/parser": "4.16.1",
     "cpx": "^1.5.0",
